@@ -1,0 +1,23 @@
+{
+  "name": "ghworkflow",
+  "version": "0.0.1",
+  "description": "github actions && github packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Norbinsh/ghworkflow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Norbinsh/ghworkflow/issues"
+  },
+  "homepage": "https://github.com/Norbinsh/ghworkflow#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
+}

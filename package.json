@@ -1,5 +1,5 @@
 {
-  "name": "@Norbinsh/ghworkflow",
+  "name": "@norbinsh/ghworkflow",
   "version": "0.0.1",
   "description": "github actions && github packages",
   "main": "index.js",

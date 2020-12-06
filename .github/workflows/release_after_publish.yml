@@ -1,7 +1,6 @@
 on:
-  push:
-    tags:
-      - 'v*'
+  registry_package:
+    types: [published, updated]
 
 name: Create Release
 

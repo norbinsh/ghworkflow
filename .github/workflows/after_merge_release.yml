@@ -22,7 +22,13 @@ jobs:
           release_name: Release ${{ github.ref }}
           body: |
             Changes in this Release includes:
-            - Updated readme
+            - Updated workflow
             
           draft: false
           prerelease: false
+      - name: Publish NPM Package
+        - uses: mikeal/merge-release@master
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            NPM_REGISTRY_URL: https://npm.pkg.github.com
+          

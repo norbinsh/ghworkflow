@@ -22,7 +22,7 @@ jobs:
           release_name: Release ${{ github.ref }}
           body: |
             Changes in this Release includes:
-            - BugFix A - Y B P will no longer crash the process
-            - Feature X is now available
+            - Updated readme
+            
           draft: false
           prerelease: false

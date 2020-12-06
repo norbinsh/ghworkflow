@@ -27,8 +27,8 @@ jobs:
           draft: false
           prerelease: false
       - name: Publish NPM Package
-        - uses: mikeal/merge-release@master
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-            NPM_REGISTRY_URL: https://npm.pkg.github.com
+        uses: mikeal/merge-release@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_REGISTRY_URL: https://npm.pkg.github.com
           

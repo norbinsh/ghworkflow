@@ -21,8 +21,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ steps.vars.outputs.sha_short }}
-          release_name: Commit ${{ steps.vars.outputs.sha_short }}
+          tag_name: echo ${{ steps.vars.outputs.sha_short }}
+          release_name: Commit echo ${{ steps.vars.outputs.sha_short }}
           body: |
             Changes in this Release includes:
             - Updated workflow

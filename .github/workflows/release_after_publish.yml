@@ -1,6 +1,4 @@
-on:
-  registry_package:
-    types: [published]
+on: registry_package
 
 name: Create Release
 

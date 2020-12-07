@@ -1,4 +1,7 @@
-on: registry_package
+on:
+  create:
+    tags:
+    - '*'
 
 name: Create Release
 

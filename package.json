@@ -21,6 +21,6 @@
   "homepage": "https://github.com/Norbinsh/ghworkflow#readme",
   "dependencies": {
     "chai": "^4.2.0",
-    "mocha": "^8.2.1"
+    "mocha": "^10.1.0"
   }
 }
